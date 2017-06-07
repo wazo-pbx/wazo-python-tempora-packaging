@@ -1,0 +1,5 @@
+wazo-python-tempora-packaging (1.7.0-1~wazo1) wazo-dev; urgency=medium
+
+  * Initial release
+
+ -- Wazo Maintainers <dev@wazo.community>  Tue, 06 Jun 2017 15:35:24 -0400

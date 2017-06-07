@@ -1,0 +1,23 @@
+Description: remove setuptools_scm dependency
+
+* Be careful with the tabs
+
+--- wazo-python-tempora-packaging-1.7.0.orig/setup.py
++++ wazo-python-tempora-packaging-1.7.0/setup.py
+@@ -14,7 +14,7 @@ description = 'Objects and routines pert
+
+ params = dict(
+ 	name=name,
+-	use_scm_version=True,
++	version="1.7",
+ 	author="Jason R. Coombs",
+ 	author_email="jaraco@jaraco.com",
+ 	description=description or name,
+@@ -40,7 +40,6 @@ params = dict(
+ 		],
+ 	},
+ 	setup_requires=[
+-		'setuptools_scm>=1.15.0',
+ 	],
+ 	classifiers=[
+ 		"Development Status :: 5 - Production/Stable",

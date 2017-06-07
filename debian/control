@@ -1,0 +1,30 @@
+Source: wazo-python-tempora-packaging
+Section: python
+Priority: optional
+Maintainer: Wazo Maintainers <dev@wazo.community>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all (>= 2.7),
+               python3-all
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.4
+Homepage: https://github.com/jaraco/tempora
+
+Package: python-tempora
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends},
+         python-six,
+         python-tz
+Description: Objects and routines pertaining to date and time (tempora).
+ .
+
+Package: python3-tempora
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         python3-six,
+         python3-tz
+Description: Objects and routines pertaining to date and time (tempora).
+ .
