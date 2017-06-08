@@ -15,6 +15,13 @@ override_dh_auto_clean:
 	if [ -f setup.py ]; then dh_auto_clean; fi
 
 
+override_dh_install:
+	dh_install
+	# Make python 2&3 tempora co-installable
+	rm debian/python-tempora/usr/bin/calc-prorate
+	rm debian/python3-tempora/usr/bin/calc-prorate
+
+
 .PHONY: get-orig-source
 
 get-orig-source:

@@ -1,3 +1,10 @@
+wazo-python-tempora-packaging (1.7.0-1~wazo2) wazo-dev; urgency=medium
+
+  * Remove calc-prorate binary (conflict when python2 and python3 are
+    installed)
+
+ -- Wazo Maintainers <dev@wazo.community>  Thu, 08 Jun 2017 11:08:52 -0400
+
 wazo-python-tempora-packaging (1.7.0-1~wazo1) wazo-dev; urgency=medium
 
   * Initial release
