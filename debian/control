@@ -17,6 +17,7 @@ Package: python-tempora
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends},
+         python-jaraco.functools,
          python-six,
          python-tz
 Description: Objects and routines pertaining to date and time (tempora).
@@ -26,6 +27,7 @@ Package: python3-tempora
 Architecture: all
 Depends: ${misc:Depends},
          ${python3:Depends},
+         python3-jaraco.functools,
          python3-six,
          python3-tz
 Description: Objects and routines pertaining to date and time (tempora).
