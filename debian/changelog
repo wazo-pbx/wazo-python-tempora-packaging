@@ -1,3 +1,9 @@
+wazo-python-tempora-packaging (1.13.0-1~wazo1) wazo-dev-stretch; urgency=medium
+
+  * update version 1.13
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 16 Oct 2018 10:17:48 -0400
+
 wazo-python-tempora-packaging (1.7.0-1~wazo3) wazo-dev; urgency=medium
 
   * update for stretch
