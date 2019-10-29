@@ -1,3 +1,9 @@
+wazo-python-tempora-packaging (1.13.0-1~wazo3) wazo-dev-buster; urgency=medium
+
+  * rebuild buster
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Tue, 29 Oct 2019 09:01:17 -0400
+
 wazo-python-tempora-packaging (1.13.0-1~wazo2) wazo-dev-stretch; urgency=medium
 
   * add jaraco.functools dependency
